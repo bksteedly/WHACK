@@ -1,10 +1,9 @@
 import { View, Text} from 'react-native';
+import MainContainer from './_layout';
 
 const Home = () => {
     return (
-      <View>
-        <Text>Home</Text>
-      </View>  
+      <MainContainer/>
     )
 }
 
