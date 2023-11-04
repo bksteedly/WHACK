@@ -10,6 +10,8 @@ const Tab = createBottomTabNavigator();
 const homeName = 'Home';
 const currencyName = 'Currency';
 const mapName = 'Map';
+
+
 const translatorName = 'Translator';
 
 //Screens import 
