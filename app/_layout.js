@@ -10,12 +10,12 @@ const Tab = createBottomTabNavigator();
 const homeName = 'Home';
 const currencyName = 'Currency';
 const mapName = 'Map';
-const translatorName = 'Translator';
+const translatorName = 'Translate';
 
 //Screens import 
 import Home from '../navigation/screens/Home';
 import Currency from '../navigation/screens/Currency';
-import Translator from '../navigation/screens/Translator';
+import Translate from '../navigation/screens/Translate';
 import Map from '../navigation/screens/Map';
 
 
@@ -44,7 +44,7 @@ export default function MainContainer(){
             >   
                 <Tab.Screen name={homeName} component={Home}/>
                 <Tab.Screen name={currencyName} component={Currency}/>
-                <Tab.Screen name={translatorName} component={Translator}/>
+                <Tab.Screen name={translatorName} component={Translate}/>
                 <Tab.Screen name={mapName} component={Map}/>
             </Tab.Navigator>
         </NavigationContainer>
